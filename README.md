@@ -75,7 +75,7 @@ To run the `mlp.cu` file, follow these steps:
     ```
 
 2. **Prepare the MNIST dataset**:
-    - Ensure that the MNIST dataset is downloaded and saved in the appropriate binary format. You can use the provided [downloader.py](http://_vscodecontentref_/1) script to download and save the dataset.
+    - Ensure that the MNIST dataset is downloaded and saved in the appropriate binary format. You can use the provided [downloader.py](http://_vscodecontentref_/1) script to download and save the dataset. Make sure to download necessary `python` modules first using `pip install -r requirements.txt`.
     ```sh
     python downloader.py
     ```
