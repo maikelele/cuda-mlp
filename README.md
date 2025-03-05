@@ -7,6 +7,9 @@ The `mlp.cu` file contains the implementation of a multilayer perceptron (MLP) m
 1. **Neural Network Structure**:
     - The neural network consists of three layers: an input layer, a hidden layer, and an output layer.
     - The `NeuralNetwork` struct holds the weights, biases, and gradients for the network.
+    - Below is a visual representation of the neural network structure:
+
+    ![Neural Network Structure](assets/output.png)
 
 2. **CUDA Kernels**:
     - Several CUDA kernels are defined for matrix multiplication, ReLU activation, bias addition, softmax, gradient computation, and weight updates.
