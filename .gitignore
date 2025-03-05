@@ -1,4 +1,4 @@
 machine_learning/
 mnist_data/
 data/
-cuda/mlp
+mlp
